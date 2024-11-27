@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('j4.avif') no-repeat center center; /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire section */
+    height: 100vh; /* Full viewport height */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Additional Styles */
+h3 {
+    margin-top: 30px;
+}

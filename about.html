@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Java Full Stack Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background: url('a3.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .about-content {
+            padding: 30px;
+        }
+        .about-content h2 {
+            color: #007bff;
+            margin-top: 30px;
+        }
+        .card img {
+            height: 230px;
+            object-fit: cover;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Java Full Stack Developer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>About Java Full Stack Development</h1>
+        <p>Explore the journey of becoming a proficient Java Full Stack Developer.</p>
+        <a href="#about-section" class="btn btn-primary mt-3">Learn More</a>
+    </div>
+
+    <!-- About Content -->
+    <section class="about-content container" id="about-section">
+        <h2>What is Java Full Stack Development?</h2>
+        <p>Java Full Stack Development involves building complete end-to-end applications that combine frontend, backend, and database technologies. A Java Full Stack Developer is skilled in both client-side (frontend) and server-side (backend) development using technologies like HTML, CSS, Java, Spring Boot, and Hibernate.</p>
+
+        <h2>Why Learn Java Full Stack?</h2>
+        <ul>
+            <li>Build powerful and scalable applications.</li>
+            <li>Work on both frontend and backend, expanding your skillset.</li>
+            <li>High demand for Full Stack Developers in the industry.</li>
+        </ul>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section container mt-5">
+        <h2 class="text-center">Core Technologies</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="j1.jpg" class="card-img-top" alt="Java">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Java forms the backbone of server-side development in Full Stack applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="springbbot.jpg" class="card-img-top" alt="Spring Boot">
+                    <div class="card-body">
+                        <h5 class="card-title">Spring Boot</h5>
+                        <p class="card-text">Spring Boot simplifies the development of robust backend services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="react.jpg" class="card-img-top" alt="React">
+                    <div class="card-body">
+                        <h5 class="card-title">React</h5>
+                        <p class="card-text">React provides a dynamic and responsive user experience for the frontend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Java Full Stack Developer Blog. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

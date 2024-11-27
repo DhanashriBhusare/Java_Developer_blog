@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologies - Java Full Stack Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Social Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .navbar-custom {
+            background-color: #000; /* Black background */
+        }
+
+        .navbar-custom .nav-link {
+            color: #fff !important; /* White text for contrast */
+        }
+
+        .tech-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tech-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tech-img {
+            width: 120px; /* Increased image size */
+            height: 120px;
+            object-fit: contain;
+        }
+
+        .tech-card-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        /* Header Styles */
+        .header-section {
+            background: linear-gradient(to right, #FF7F50, #FF6347, #FF4500); /* Gradient Background */
+        }
+
+        .header-section h1 {
+            font-size: 3rem;
+        }
+
+        .footer-section {
+            background: linear-gradient(to left, #32CD32, #228B22, #006400); /* Green Gradient */
+        }
+
+        .footer-section a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header-section py-5 text-white text-center">
+        <div class="container">
+            <h1 class="display-4 mb-3">Java Full Stack Developer</h1>
+            <p class="lead">Master the Full Stack with Java, from Frontend to Backend Development</p>
+            <a href="#technologies" class="btn btn-light btn-lg">Explore Technologies</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Java Full Stack Developer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technologies.html">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Technologies Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Technologies for Java Full Stack Development</h2>
+
+        <!-- Frontend Section -->
+        <h3 class="mt-5">Frontend Technologies</h3>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="html.webp" alt="HTML" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">HTML</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="css.webp" alt="CSS" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">CSS</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="js.jpg" alt="JavaScript" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">JavaScript</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Frontend Frameworks Section -->
+        <h3 class="mt-5">Frontend Frameworks</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card tech-card text-center p-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React.js" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">React.js</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card tech-card text-center p-3">
+                    <img src="angular.jpg" alt="Angular" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Angular</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend Technologies -->
+        <h3 class="mt-5">Backend Technologies</h3>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card tech-card text-center p-3">
+                    <img src="java.jpg" alt="Java" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Java</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card tech-card text-center p-3">
+                    <img src="springbbot.jpg" alt="Spring Boot" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Spring Boot</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card tech-card text-center p-3">
+                    <img src="hibernate.jpg" alt="Hibernate" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Hibernate</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card tech-card text-center p-3">
+                    <img src="restapi.jpg" alt="RESTful APIs" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">RESTful APIs</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Database Technologies -->
+        <h3 class="mt-5">Database Technologies</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card tech-card text-center p-3">
+                    <img src="mysql.png" alt="MySQL" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card tech-card text-center p-3">
+                    <img src="jdbc.png" alt="JDBC" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">JDBC</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Tools -->
+        <h3 class="mt-5">Additional Tools</h3>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="git.png" alt="Git" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Git</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">GitHub</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card tech-card text-center p-3">
+                    <img src="docker.jpg" alt="Docker" class="tech-img mx-auto">
+                    <p class="tech-card-title mt-3">Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Java Full Stack Developer
